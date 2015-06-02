@@ -1,0 +1,31 @@
+digraph Tree {
+0 [label="thal <= 3.8671\ngini = 0.496596194273\nsamples = 303", shape="box"] ;
+1 [label="ca <= 0.8361\ngini = 0.346421831906\nsamples = 166", shape="box"] ;
+0 -> 1 ;
+2 [label="trestbps <= 157.0000\ngini = 0.197530864198\nsamples = 117", shape="box"] ;
+1 -> 2 ;
+3 [label="gini = 0.1490\nsamples = 111\nvalue = [ 102.    9.]", shape="box"] ;
+2 -> 3 ;
+4 [label="gini = 0.4444\nsamples = 6\nvalue = [ 2.  4.]", shape="box"] ;
+2 -> 4 ;
+5 [label="cp <= 3.5000\ngini = 0.499791753436\nsamples = 49", shape="box"] ;
+1 -> 5 ;
+6 [label="gini = 0.3662\nsamples = 29\nvalue = [ 22.   7.]", shape="box"] ;
+5 -> 6 ;
+7 [label="gini = 0.2550\nsamples = 20\nvalue = [  3.  17.]", shape="box"] ;
+5 -> 7 ;
+8 [label="cp <= 3.5000\ngini = 0.380414513293\nsamples = 137", shape="box"] ;
+0 -> 8 ;
+9 [label="ca <= 0.8361\ngini = 0.496219281664\nsamples = 46", shape="box"] ;
+8 -> 9 ;
+10 [label="gini = 0.3995\nsamples = 29\nvalue = [ 21.   8.]", shape="box"] ;
+9 -> 10 ;
+11 [label="gini = 0.3599\nsamples = 17\nvalue = [  4.  13.]", shape="box"] ;
+9 -> 11 ;
+12 [label="oldpeak <= 0.5500\ngini = 0.195628547277\nsamples = 91", shape="box"] ;
+8 -> 12 ;
+13 [label="gini = 0.4628\nsamples = 22\nvalue = [  8.  14.]", shape="box"] ;
+12 -> 13 ;
+14 [label="gini = 0.0563\nsamples = 69\nvalue = [  2.  67.]", shape="box"] ;
+12 -> 14 ;
+}
